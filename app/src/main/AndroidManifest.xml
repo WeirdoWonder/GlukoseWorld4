@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.glukoseworld4">
+
+    <!-- Include "neverForLocation" only if you can strongly assert that
+        your app never derives physical location from Bluetooth scan results. -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+    <!--        android:theme="@android:style/Theme.DeviceDefault.Light"-->
+    <!--        >-->
+
+    <!--        <service-->
+    <!--            android:name=".MyBLEService"-->
+    <!--            android:enabled="true"-->
+    <!--            android:exported="true"></service>-->
+
+    <!--        <receiver-->
+    <!--            android:name=".MyReceiverWifi"-->
+    <!--            android:enabled="true"-->
+    <!--            android:exported="true" />-->
+
+    <!--        <uses-library-->
+    <!--            android:name="com.google.android.wearable"-->
+    <!--            android:required="true" />-->
+    <!--
+           Set to true if your app is Standalone, that is, it does not require the handheld
+           app to run.
+    -->
+    <meta-data
+        android:name="com.google.android.wearable.standalone"
+        android:value="true" />
+
+<!--     <activity android:name=".BleOperationsActivity"-->
+<!--        android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.example.glukoseworld4.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

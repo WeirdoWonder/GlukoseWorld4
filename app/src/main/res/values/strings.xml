@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">GlucoseWorld3</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Sofi World!</string>
+    <string name="title_activity_scaffold">Scaffold</string>
+    <string name="title_activity_daily_diet">DailyDiet</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="label_data">Data:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="title_devices">Devices</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="menu_stop">Stop menu</string>
+    <string name="menu_scan">Scan menu</string>
+    <string name="menu_connect">Connect menu</string>
+    <string name="menu_disconnect">Disconnect menu</string>
+    <string name="unknown_service">Unknown Service</string>
+    <string name="unknown_characteristic">Unknown characteristics</string>
+    <string name="text_state_disconnected">State: Disconnected</string>
+    <string name="button_read">Read</string>
+    <string name="button_write">Write</string>
+    <string name="button_clear_log">Clear</string>
+    <string name="text_static_read_hint">Readable characteristic</string>
+    <string name="text_static_write_hint">Writeable characteristic</string>
+    <string name="text_static_indicate_hint">Indication</string>
+    <string name="text_static_autoconnect">Scan &amp; autoconnect</string>
+    <string name="text_subscribed">Subscribed</string>
+    <string name="text_not_subscribed">Not subscribed</string>
+    <string name="text_default_write_value">Android says Hi</string>
+    <string name="text_hint_write_value">String value for write</string>
+    <string name="text_default_logs_value">Logs:</string>
+    <string name="ble_playground">BLE Playground</string>
+    <string name="permission_required">Camera access is required to display the camera preview.</string>
+    <string name="ok">OK</string>
+    <string name="permission_granted">Permission is granted. You can use the camera now.</string>
+
+    <string name="error_bluetooth_not_supported">ERROR! Bluetooth is not supported</string>
+</resources>
